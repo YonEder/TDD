@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-25-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/ik012982i10/dev/TDD1/calculadora-tdd/target/surefire/surefirebooter-20261020082324559_3.jar /home/ik012982i10/dev/TDD1/calculadora-tdd/target/surefire 2026-10-20T08-23-24_519-jvmRun1 surefire-20261020082324559_1tmp surefire_0-20261020082324559_2tmp"/>
+    <property name="sun.java.command" value="/home/ik012982i10/dev/TDD1/calculadora-tdd/target/surefire/surefirebooter-20261027081334540_3.jar /home/ik012982i10/dev/TDD1/calculadora-tdd/target/surefire 2026-10-27T08-13-34_491-jvmRun1 surefire-20261027081334540_1tmp surefire_0-20261027081334540_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/ik012982i10/dev/TDD1/calculadora-tdd/target/test-classes:/home/ik012982i10/dev/TDD1/calculadora-tdd/target/classes:/home/ik012982i10/.m2/repository/org/junit/jupiter/junit-jupiter/6.1.3/junit-jupiter-6.1.3.jar:/home/ik012982i10/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.3/junit-jupiter-api-6.1.3.jar:/home/ik012982i10/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/ik012982i10/.m2/repository/org/junit/platform/junit-platform-commons/6.1.3/junit-platform-commons-6.1.3.jar:/home/ik012982i10/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ik012982i10/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/ik012982i10/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.3/junit-jupiter-params-6.1.3.jar:/home/ik012982i10/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.3/junit-jupiter-engine-6.1.3.jar:/home/ik012982i10/.m2/repository/org/junit/platform/junit-platform-engine/6.1.3/junit-platform-engine-6.1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,13 +27,13 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/ik012982i10/dev/TDD1/calculadora-tdd/target/surefire/surefirebooter-20261020082324559_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/ik012982i10/dev/TDD1/calculadora-tdd/target/surefire/surefirebooter-20261027081334540_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.4.1+1-1-24.04.4-Ubuntu"/>
     <property name="user.name" value="ik012982i10"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="7.0.0-34-generic"/>
+    <property name="os.version" value="7.0.0-38-generic"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -54,7 +54,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="restaTest" classname="com.zubirimanteo.devops.CalculadoraTest" time="0.001"/>
+  <testcase name="restaTest" classname="com.zubirimanteo.devops.CalculadoraTest" time="0.0"/>
   <testcase name="sumaTest" classname="com.zubirimanteo.devops.CalculadoraTest" time="0.001"/>
   <testcase name="multiplicacionTest" classname="com.zubirimanteo.devops.CalculadoraTest" time="0.001"/>
 </testsuite>
