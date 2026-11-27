@@ -1,17 +1,28 @@
 name: Calculadora CI with Maven
+
 on:
-push:
-branches: [ "main" ]
-pull_request:
-branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ] # Sustituye "main" por "master" si tu rama principal se llama así
+
 jobs:
-build:
-runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
+    # ... el resto de tu workflow se mantiene exactamente igual
+strategy:
+matrix:
+java: [ '17', '21' ]
 steps:
 - name: Descargar el código del repositorio
 uses: actions/checkout@v4
-- name: Configurar el JDK 17
+- name: Configurar el JDK ${{ matrix.java }}
 uses: actions/setup-java@v4
 with:
-java-version: '17'
+java-version: ${{ matrix.java }}
 distribution: 'temurin'
+- name: Compilar y ejecutar tests de la Calculadora
+run: mvn clean test
+- name: Guardar la Calculadora compilada
+uses: actions/upload-artifact@v4
+with:
+name: calculadora-app
+path: target/*.jar
